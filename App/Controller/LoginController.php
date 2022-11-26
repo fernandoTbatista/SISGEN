@@ -12,6 +12,11 @@ class LoginController extends Controller{
         include PATH_VIEW . 'login.php';
     }
 
+    public static function EsqueciSenha()
+    {
+        include PATH_VIEW . 'esqueci-senha.php';
+    }
+
     public static function autenticar()
     {
         $usuario = $_POST["user"];
@@ -26,7 +31,8 @@ class LoginController extends Controller{
             $_SESSION["usuario_logado"] = array('id' => $resultado->id_usuario,
                                                 'nome' => $resultado->nomeCompleto);
             
-            if(isset($_POST['remember']))                                    
+            if(isset($_POST['remember']))        
+                                        
                 self::remember($usuario);
 
             header ("Location: /");
