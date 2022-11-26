@@ -25,7 +25,7 @@
                             <div class="field">
 
                                 <div class="control">
-                                    <input name="user" name="text" class="input is-large" placeholder="Digite seu Email"
+                                    <input name="user" name="text" class="input is-large" value="<?= $usuario ?>" placeholder="Digite seu Email"
                                         autofocus="">
                                 </div>
                             </div>
@@ -34,9 +34,18 @@
                                 <div class="control">
                                     <input name="pass" class="input is-large" type="password"
                                         placeholder="Digite sua Senha">
+                                    
                                 </div>
                             </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input id="remember" name="remember" type="checkbox" />
+                                    <label for="remember">Lembrar meu usuário. </label>                                  
+                                </div>
+                            </div>
+
+                          <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
                         </form>
                     </div>
                 </div>
