@@ -1,5 +1,7 @@
 <?php
 
+use App\Controller\{DashboardController, LoginController, ExameController, PacienteController, PlanoController};
+
 try{
 
     switch($uri_parse)
