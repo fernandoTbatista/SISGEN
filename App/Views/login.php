@@ -45,7 +45,8 @@
                                 </div>
                             </div>
 
-                          <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+                            <a href="/esqueci-a-senha" class="btn">Esqueci a senha.</a>
                         </form>
                     </div>
                 </div>
