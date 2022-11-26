@@ -22,6 +22,10 @@ try{
             LoginController::autenticar();
         break;
 
+        case '/esqueci-a-senha':
+            LoginController::EsqueciSenha();
+        break;
+
         case '/sair':
             LoginController::sair();
         break;
