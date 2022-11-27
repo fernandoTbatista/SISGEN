@@ -22,6 +22,10 @@
 
                     <div class="box">
                         <form action="/enviar-nova-senha" method="POST">
+
+                            <p>
+                                <?= isset($retorno) ? $retorno : NULL ?>
+                            </p>
                             <div class="field">
 
                                 <div class="control">
