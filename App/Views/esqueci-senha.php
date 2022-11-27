@@ -21,7 +21,7 @@
                     <h3 class="title has-text-grey">Consultório</h3>
 
                     <div class="box">
-                        <form action="/autenticar" method="POST">
+                        <form action="/enviar-nova-senha" method="POST">
                             <div class="field">
 
                                 <div class="control">
