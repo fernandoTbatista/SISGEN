@@ -23,7 +23,13 @@ try{
         break;
 
         case '/esqueci-a-senha':
-            LoginController::EsqueciSenha();
+            LoginController::esqueciSenha();
+        break;
+
+        case '/enviar-nova-senha':
+            LoginController::enviarNovaSenha();
+
+        
         break;
 
         case '/sair':
