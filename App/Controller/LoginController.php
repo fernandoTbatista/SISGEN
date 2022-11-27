@@ -12,9 +12,16 @@ class LoginController extends Controller{
         include PATH_VIEW . 'login.php';
     }
 
-    public static function EsqueciSenha()
+    public static function esqueciSenha()
     {
         include PATH_VIEW . 'esqueci-senha.php';
+    }
+
+    public static function enviarNovaSenha()
+    {
+        $nova_senha = uniqid();
+        
+
     }
 
     public static function autenticar()
