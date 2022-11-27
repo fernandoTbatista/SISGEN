@@ -1,8 +1,11 @@
-    <!-- <?php
-       // $plano_dao = new PlanoDAO();
-       // $lista_planos = $plano_dao->getAllRows();
-       // $total_planos = count($lista_planos);
-     ?> -->
+    <?php
+
+        use App\DAO\PlanoDAO;
+        parent::isProtected();
+        $plano_dao = new PlanoDAO();
+        $lista_planos = $plano_dao->getAllRows();
+        $total_planos = count($lista_planos);
+     ?>
 
 <html lang="pt-br">
     <head>
